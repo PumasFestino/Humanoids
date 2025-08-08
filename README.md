@@ -1,3 +1,3 @@
-# Unitree G1
+# Fourier GR-1
 
-Poner aquí las instrucciones de instalación de todo lo que se ocupa para el Unitree
+Poner aquí las instrucciones de instalación de todo lo que se ocupa para el Fourier
