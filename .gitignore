@@ -1,0 +1,36 @@
+# --- Python ---
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+*.egg
+
+# --- Build directories (ROS 2/colcon) ---
+/build/          # Directorio de build global (en la raíz del workspace)
+/install/        # Directorio de instalación de colcon
+/log/            # Logs de colcon
+**/build/        # Builds específicos de paquetes (por si existen)
+**/install/      # Instalaciones específicas de paquetes
+
+# --- ROS 2 & CMake temporales ---
+**/CMakeLists.txt.user
+**/Makefile
+*.so
+*.a
+*.la
+*.lo
+**/compile_commands.json
+
+# --- Testing ---
+**/test_results/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Colcon metadata ---
+**/colcon_*
+**/.colcon_*
