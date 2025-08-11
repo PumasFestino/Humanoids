@@ -5,11 +5,11 @@
 #include <geometry_msgs/msg/point.hpp>
 #include <rclcpp/rclcpp.hpp>
 
-namespace HumanoidTools {
+namespace humanoid_tools {
 
 class Hardware {
 public:
-    Hardware();
+    Hardware(rclcpp::Logger logger);
     bool isReady() const;
     bool calibrate();
     bool navigateToKickoffPosition();
@@ -27,6 +27,6 @@ private:
     int kick_counter_ = 0;
 };
 
-} // namespace HumanoidTools
+} // namespace humanoid_tools
 
 #endif

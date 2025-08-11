@@ -1,10 +1,9 @@
 #include "humanoid_tools/vision.hpp"
 #include <random>
 
-namespace HumanoidTools {
+namespace humanoid_tools {
 
-Vision::Vision() : 
-    logger_(rclcpp::get_logger("Vision")) {}
+Vision::Vision(rclcpp::Logger logger) : logger_(logger) {}
 
 bool Vision::isReady() const {
     return true;
@@ -16,7 +15,6 @@ bool Vision::calibrate() {
 }
 
 bool Vision::isBallVisible() const {
-    // Random ball visibility (70% chance)
     static std::random_device rd;
     static std::mt19937 gen(rd());
     static std::bernoulli_distribution dist(0.7);
@@ -26,17 +24,14 @@ bool Vision::isBallVisible() const {
 }
 
 bool Vision::isBallKickable() const {
-    // Ball is kickable 80% of the time when visible
     return ball_visible_ && (std::rand() % 100 < 80);
 }
 
 bool Vision::isGoalAligned() const {
-    // Goal is aligned 75% of the time
     return ball_visible_ && (std::rand() % 100 < 75);
 }
 
 bool Vision::isBallNear() const {
-    // Ball is near 60% of the time when visible
     return ball_visible_ && (std::rand() % 100 < 60);
 }
 
@@ -58,4 +53,4 @@ void Vision::activeScanForBall() {
     RCLCPP_INFO(logger_, "Scanning for ball [Attempt %d]", ++scan_counter_);
 }
 
-} // namespace HumanoidTools
+} // namespace humanoid_tools

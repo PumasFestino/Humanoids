@@ -4,10 +4,9 @@
 
 using namespace std::chrono_literals;
 
-namespace HumanoidTools {
+namespace humanoid_tools {
 
-Hardware::Hardware() : 
-    logger_(rclcpp::get_logger("Hardware")) {}
+Hardware::Hardware(rclcpp::Logger logger) : logger_(logger) {}
 
 bool Hardware::isReady() const {
     return true;
@@ -27,7 +26,6 @@ bool Hardware::navigateToKickoffPosition() {
 }
 
 bool Hardware::isGameStarted() const {
-    // Simulate game start after 3 seconds
     static auto start_time = std::chrono::steady_clock::now();
     auto elapsed = std::chrono::steady_clock::now() - start_time;
     return elapsed > 3s;
@@ -61,4 +59,4 @@ void Hardware::emergencyStop() {
     RCLCPP_ERROR(logger_, "EMERGENCY STOP ACTIVATED!");
 }
 
-} // namespace HumanoidTools
+} // namespace humanoid_tools

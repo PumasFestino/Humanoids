@@ -1,0 +1,398 @@
+[0.000000] (-) TimerEvent: {}
+[0.002676] (-) JobUnselected: {'identifier': 'hdwr_pkg'}
+[0.003389] (-) JobUnselected: {'identifier': 'refbox_comm_node'}
+[0.003977] (-) JobUnselected: {'identifier': 'surge_et_ambula'}
+[0.005458] (-) JobUnselected: {'identifier': 'task_manager'}
+[0.006452] (-) JobUnselected: {'identifier': 'vision_node'}
+[0.007292] (humanoid_tools) JobQueued: {'identifier': 'humanoid_tools', 'dependencies': OrderedDict()}
+[0.007930] (humanoid_tools) JobStarted: {'identifier': 'humanoid_tools'}
+[0.047548] (humanoid_tools) JobProgress: {'identifier': 'humanoid_tools', 'progress': 'cmake'}
+[0.048294] (humanoid_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/rafael/Humanoids/ros_ws/src/humanoid_tools', '-DCMAKE_INSTALL_PREFIX=/home/rafael/Humanoids/ros_ws/install/humanoid_tools'], 'cwd': '/home/rafael/Humanoids/ros_ws/build/humanoid_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'rafael'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafael/Humanoids/ros_ws/install/humanoid_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafael'), ('OLDPWD', '/home/rafael/Humanoids/ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '17242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafael/Humanoids/ros_ws/install:/home/rafael/ROS2Dev/fourier_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rafael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafael-ideapad:@/tmp/.ICE-unix/2463,unix/rafael-ideapad:/tmp/.ICE-unix/2463'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9f5ad58f_a177_4783_9e47_0ee5679638b1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8W30A3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafael/Humanoids/ros_ws/build/humanoid_tools'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble')]), 'shell': False}
+[0.099783] (-) TimerEvent: {}
+[0.201505] (-) TimerEvent: {}
+[0.303501] (-) TimerEvent: {}
+[0.404766] (-) TimerEvent: {}
+[0.506195] (-) TimerEvent: {}
+[0.608113] (-) TimerEvent: {}
+[0.711424] (-) TimerEvent: {}
+[0.812787] (-) TimerEvent: {}
+[0.913924] (-) TimerEvent: {}
+[1.015486] (-) TimerEvent: {}
+[1.054998] (humanoid_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.115610] (-) TimerEvent: {}
+[1.216364] (-) TimerEvent: {}
+[1.319133] (-) TimerEvent: {}
+[1.424109] (-) TimerEvent: {}
+[1.491266] (humanoid_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.524324] (-) TimerEvent: {}
+[1.562993] (humanoid_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.624570] (-) TimerEvent: {}
+[1.725366] (-) TimerEvent: {}
+[1.826146] (-) TimerEvent: {}
+[1.902209] (humanoid_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.926314] (-) TimerEvent: {}
+[1.942876] (humanoid_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.943976] (humanoid_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.946109] (humanoid_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.961177] (humanoid_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.026529] (-) TimerEvent: {}
+[2.127498] (-) TimerEvent: {}
+[2.230007] (-) TimerEvent: {}
+[2.255284] (humanoid_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.302324] (humanoid_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.303464] (humanoid_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.305453] (humanoid_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.315572] (humanoid_tools) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.330192] (-) TimerEvent: {}
+[2.432590] (-) TimerEvent: {}
+[2.533715] (-) TimerEvent: {}
+[2.634620] (-) TimerEvent: {}
+[2.735869] (-) TimerEvent: {}
+[2.808770] (humanoid_tools) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.835985] (-) TimerEvent: {}
+[2.937756] (-) TimerEvent: {}
+[3.039902] (-) TimerEvent: {}
+[3.142157] (-) TimerEvent: {}
+[3.174052] (humanoid_tools) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.242388] (-) TimerEvent: {}
+[3.344169] (-) TimerEvent: {}
+[3.346384] (humanoid_tools) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.366913] (humanoid_tools) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.404984] (humanoid_tools) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.444314] (-) TimerEvent: {}
+[3.463984] (humanoid_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.544507] (-) TimerEvent: {}
+[3.552737] (humanoid_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.645970] (-) TimerEvent: {}
+[3.746682] (-) TimerEvent: {}
+[3.790011] (humanoid_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.805480] (humanoid_tools) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.848987] (-) TimerEvent: {}
+[3.950963] (-) TimerEvent: {}
+[4.051976] (-) TimerEvent: {}
+[4.157641] (-) TimerEvent: {}
+[4.258636] (-) TimerEvent: {}
+[4.269993] (humanoid_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.358805] (-) TimerEvent: {}
+[4.391759] (humanoid_tools) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.460014] (-) TimerEvent: {}
+[4.544976] (humanoid_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.560187] (-) TimerEvent: {}
+[4.575868] (humanoid_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.665098] (-) TimerEvent: {}
+[4.767379] (-) TimerEvent: {}
+[4.869153] (-) TimerEvent: {}
+[4.906060] (humanoid_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.911212] (humanoid_tools) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.970206] (-) TimerEvent: {}
+[5.071711] (-) TimerEvent: {}
+[5.151811] (humanoid_tools) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.171964] (-) TimerEvent: {}
+[5.274117] (-) TimerEvent: {}
+[5.376555] (-) TimerEvent: {}
+[5.478619] (-) TimerEvent: {}
+[5.499283] (humanoid_tools) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.563589] (humanoid_tools) StdoutLine: {'line': b'-- Generating done\n'}
+[5.576638] (humanoid_tools) StdoutLine: {'line': b'-- Build files have been written to: /home/rafael/Humanoids/ros_ws/build/humanoid_tools\n'}
+[5.578723] (-) TimerEvent: {}
+[5.620250] (humanoid_tools) CommandEnded: {'returncode': 0}
+[5.621759] (humanoid_tools) JobProgress: {'identifier': 'humanoid_tools', 'progress': 'build'}
+[5.622232] (humanoid_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rafael/Humanoids/ros_ws/build/humanoid_tools', '--', '-j2', '-l2'], 'cwd': '/home/rafael/Humanoids/ros_ws/build/humanoid_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'rafael'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafael/Humanoids/ros_ws/install/humanoid_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafael'), ('OLDPWD', '/home/rafael/Humanoids/ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '17242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafael/Humanoids/ros_ws/install:/home/rafael/ROS2Dev/fourier_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rafael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafael-ideapad:@/tmp/.ICE-unix/2463,unix/rafael-ideapad:/tmp/.ICE-unix/2463'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9f5ad58f_a177_4783_9e47_0ee5679638b1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8W30A3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafael/Humanoids/ros_ws/build/humanoid_tools'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble')]), 'shell': False}
+[5.678940] (-) TimerEvent: {}
+[5.723906] (humanoid_tools) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/humanoid_tools.dir/src/hardware.cpp.o\x1b[0m\n'}
+[5.779743] (-) TimerEvent: {}
+[5.882016] (-) TimerEvent: {}
+[5.983397] (-) TimerEvent: {}
+[6.085014] (-) TimerEvent: {}
+[6.187193] (-) TimerEvent: {}
+[6.288914] (-) TimerEvent: {}
+[6.390964] (-) TimerEvent: {}
+[6.491889] (-) TimerEvent: {}
+[6.593724] (-) TimerEvent: {}
+[6.695970] (-) TimerEvent: {}
+[6.799267] (-) TimerEvent: {}
+[6.903970] (-) TimerEvent: {}
+[7.004702] (-) TimerEvent: {}
+[7.105457] (-) TimerEvent: {}
+[7.210483] (-) TimerEvent: {}
+[7.311392] (-) TimerEvent: {}
+[7.415181] (-) TimerEvent: {}
+[7.515934] (-) TimerEvent: {}
+[7.616936] (-) TimerEvent: {}
+[7.718122] (-) TimerEvent: {}
+[7.820240] (-) TimerEvent: {}
+[7.921473] (-) TimerEvent: {}
+[8.023048] (-) TimerEvent: {}
+[8.125874] (-) TimerEvent: {}
+[8.228448] (-) TimerEvent: {}
+[8.330442] (-) TimerEvent: {}
+[8.433367] (-) TimerEvent: {}
+[8.537316] (-) TimerEvent: {}
+[8.639705] (-) TimerEvent: {}
+[8.742174] (-) TimerEvent: {}
+[8.844874] (-) TimerEvent: {}
+[8.947407] (-) TimerEvent: {}
+[9.049704] (-) TimerEvent: {}
+[9.152959] (-) TimerEvent: {}
+[9.254534] (-) TimerEvent: {}
+[9.357055] (-) TimerEvent: {}
+[9.459006] (-) TimerEvent: {}
+[9.560984] (-) TimerEvent: {}
+[9.664106] (-) TimerEvent: {}
+[9.767339] (-) TimerEvent: {}
+[9.869897] (-) TimerEvent: {}
+[9.971656] (-) TimerEvent: {}
+[10.074184] (-) TimerEvent: {}
+[10.177203] (-) TimerEvent: {}
+[10.279916] (-) TimerEvent: {}
+[10.383543] (-) TimerEvent: {}
+[10.486171] (-) TimerEvent: {}
+[10.589352] (-) TimerEvent: {}
+[10.692491] (-) TimerEvent: {}
+[10.795510] (-) TimerEvent: {}
+[10.897744] (-) TimerEvent: {}
+[11.001393] (-) TimerEvent: {}
+[11.103476] (-) TimerEvent: {}
+[11.205795] (-) TimerEvent: {}
+[11.308742] (-) TimerEvent: {}
+[11.409384] (-) TimerEvent: {}
+[11.510411] (-) TimerEvent: {}
+[11.612598] (-) TimerEvent: {}
+[11.715089] (-) TimerEvent: {}
+[11.816336] (-) TimerEvent: {}
+[11.917475] (-) TimerEvent: {}
+[12.020132] (-) TimerEvent: {}
+[12.123003] (-) TimerEvent: {}
+[12.224551] (-) TimerEvent: {}
+[12.326106] (-) TimerEvent: {}
+[12.428442] (-) TimerEvent: {}
+[12.530742] (-) TimerEvent: {}
+[12.634616] (-) TimerEvent: {}
+[12.736721] (-) TimerEvent: {}
+[12.838633] (-) TimerEvent: {}
+[12.940694] (-) TimerEvent: {}
+[13.042948] (-) TimerEvent: {}
+[13.145147] (-) TimerEvent: {}
+[13.247124] (-) TimerEvent: {}
+[13.348178] (-) TimerEvent: {}
+[13.449084] (-) TimerEvent: {}
+[13.550398] (-) TimerEvent: {}
+[13.652624] (-) TimerEvent: {}
+[13.755953] (-) TimerEvent: {}
+[13.860091] (-) TimerEvent: {}
+[13.962523] (-) TimerEvent: {}
+[14.064574] (-) TimerEvent: {}
+[14.168087] (-) TimerEvent: {}
+[14.270915] (-) TimerEvent: {}
+[14.373607] (-) TimerEvent: {}
+[14.476460] (-) TimerEvent: {}
+[14.579191] (-) TimerEvent: {}
+[14.681680] (-) TimerEvent: {}
+[14.785351] (-) TimerEvent: {}
+[14.888473] (-) TimerEvent: {}
+[14.990202] (-) TimerEvent: {}
+[15.092603] (-) TimerEvent: {}
+[15.193696] (-) TimerEvent: {}
+[15.297329] (-) TimerEvent: {}
+[15.399516] (-) TimerEvent: {}
+[15.502884] (-) TimerEvent: {}
+[15.605419] (-) TimerEvent: {}
+[15.706654] (-) TimerEvent: {}
+[15.808025] (-) TimerEvent: {}
+[15.909673] (-) TimerEvent: {}
+[16.011000] (-) TimerEvent: {}
+[16.114065] (-) TimerEvent: {}
+[16.216984] (-) TimerEvent: {}
+[16.320978] (-) TimerEvent: {}
+[16.421673] (-) TimerEvent: {}
+[16.523067] (-) TimerEvent: {}
+[16.625704] (-) TimerEvent: {}
+[16.728118] (-) TimerEvent: {}
+[16.830966] (-) TimerEvent: {}
+[16.933219] (-) TimerEvent: {}
+[17.035202] (-) TimerEvent: {}
+[17.137580] (-) TimerEvent: {}
+[17.240379] (-) TimerEvent: {}
+[17.342350] (-) TimerEvent: {}
+[17.444591] (-) TimerEvent: {}
+[17.547433] (-) TimerEvent: {}
+[17.650443] (-) TimerEvent: {}
+[17.754744] (-) TimerEvent: {}
+[17.855766] (-) TimerEvent: {}
+[17.956711] (-) TimerEvent: {}
+[18.058747] (-) TimerEvent: {}
+[18.162289] (-) TimerEvent: {}
+[18.265082] (-) TimerEvent: {}
+[18.368326] (-) TimerEvent: {}
+[18.471665] (-) TimerEvent: {}
+[18.574112] (-) TimerEvent: {}
+[18.677380] (-) TimerEvent: {}
+[18.780093] (-) TimerEvent: {}
+[18.822053] (humanoid_tools) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/humanoid_tools.dir/src/vision.cpp.o\x1b[0m\n'}
+[18.880264] (-) TimerEvent: {}
+[18.981521] (-) TimerEvent: {}
+[19.085016] (-) TimerEvent: {}
+[19.185896] (-) TimerEvent: {}
+[19.289182] (-) TimerEvent: {}
+[19.390234] (-) TimerEvent: {}
+[19.491702] (-) TimerEvent: {}
+[19.594207] (-) TimerEvent: {}
+[19.698936] (-) TimerEvent: {}
+[19.799671] (-) TimerEvent: {}
+[19.900584] (-) TimerEvent: {}
+[20.004118] (-) TimerEvent: {}
+[20.105587] (-) TimerEvent: {}
+[20.209053] (-) TimerEvent: {}
+[20.310328] (-) TimerEvent: {}
+[20.411785] (-) TimerEvent: {}
+[20.516683] (-) TimerEvent: {}
+[20.618005] (-) TimerEvent: {}
+[20.719353] (-) TimerEvent: {}
+[20.822184] (-) TimerEvent: {}
+[20.924726] (-) TimerEvent: {}
+[21.026774] (-) TimerEvent: {}
+[21.128780] (-) TimerEvent: {}
+[21.229944] (-) TimerEvent: {}
+[21.331189] (-) TimerEvent: {}
+[21.433183] (-) TimerEvent: {}
+[21.534404] (-) TimerEvent: {}
+[21.636181] (-) TimerEvent: {}
+[21.737736] (-) TimerEvent: {}
+[21.840209] (-) TimerEvent: {}
+[21.942678] (-) TimerEvent: {}
+[22.045541] (-) TimerEvent: {}
+[22.147899] (-) TimerEvent: {}
+[22.250040] (-) TimerEvent: {}
+[22.352627] (-) TimerEvent: {}
+[22.453719] (-) TimerEvent: {}
+[22.556666] (-) TimerEvent: {}
+[22.660110] (-) TimerEvent: {}
+[22.763160] (-) TimerEvent: {}
+[22.864900] (-) TimerEvent: {}
+[22.967313] (-) TimerEvent: {}
+[23.070335] (-) TimerEvent: {}
+[23.173069] (-) TimerEvent: {}
+[23.276388] (-) TimerEvent: {}
+[23.378764] (-) TimerEvent: {}
+[23.481100] (-) TimerEvent: {}
+[23.583552] (-) TimerEvent: {}
+[23.685702] (-) TimerEvent: {}
+[23.788435] (-) TimerEvent: {}
+[23.891067] (-) TimerEvent: {}
+[23.993498] (-) TimerEvent: {}
+[24.095890] (-) TimerEvent: {}
+[24.198153] (-) TimerEvent: {}
+[24.301476] (-) TimerEvent: {}
+[24.404351] (-) TimerEvent: {}
+[24.507405] (-) TimerEvent: {}
+[24.609783] (-) TimerEvent: {}
+[24.712978] (-) TimerEvent: {}
+[24.816219] (-) TimerEvent: {}
+[24.918527] (-) TimerEvent: {}
+[25.021251] (-) TimerEvent: {}
+[25.123614] (-) TimerEvent: {}
+[25.226496] (-) TimerEvent: {}
+[25.329384] (-) TimerEvent: {}
+[25.433315] (-) TimerEvent: {}
+[25.535424] (-) TimerEvent: {}
+[25.637878] (-) TimerEvent: {}
+[25.739086] (-) TimerEvent: {}
+[25.843273] (-) TimerEvent: {}
+[25.946312] (-) TimerEvent: {}
+[26.046990] (-) TimerEvent: {}
+[26.147897] (-) TimerEvent: {}
+[26.249490] (-) TimerEvent: {}
+[26.356512] (-) TimerEvent: {}
+[26.459153] (-) TimerEvent: {}
+[26.561257] (-) TimerEvent: {}
+[26.663619] (-) TimerEvent: {}
+[26.766348] (-) TimerEvent: {}
+[26.868995] (-) TimerEvent: {}
+[26.973513] (-) TimerEvent: {}
+[27.076163] (-) TimerEvent: {}
+[27.178675] (-) TimerEvent: {}
+[27.280896] (-) TimerEvent: {}
+[27.382969] (-) TimerEvent: {}
+[27.485048] (-) TimerEvent: {}
+[27.587998] (-) TimerEvent: {}
+[27.691967] (-) TimerEvent: {}
+[27.794426] (-) TimerEvent: {}
+[27.896690] (-) TimerEvent: {}
+[27.999160] (-) TimerEvent: {}
+[28.103026] (-) TimerEvent: {}
+[28.205435] (-) TimerEvent: {}
+[28.309722] (-) TimerEvent: {}
+[28.412026] (-) TimerEvent: {}
+[28.514739] (-) TimerEvent: {}
+[28.617930] (-) TimerEvent: {}
+[28.720540] (-) TimerEvent: {}
+[28.821589] (-) TimerEvent: {}
+[28.922558] (-) TimerEvent: {}
+[29.025698] (-) TimerEvent: {}
+[29.126765] (-) TimerEvent: {}
+[29.228096] (-) TimerEvent: {}
+[29.330484] (-) TimerEvent: {}
+[29.434652] (-) TimerEvent: {}
+[29.535776] (-) TimerEvent: {}
+[29.637645] (-) TimerEvent: {}
+[29.739207] (-) TimerEvent: {}
+[29.844496] (-) TimerEvent: {}
+[29.946243] (-) TimerEvent: {}
+[30.047881] (-) TimerEvent: {}
+[30.148520] (-) TimerEvent: {}
+[30.249737] (-) TimerEvent: {}
+[30.351304] (-) TimerEvent: {}
+[30.452640] (-) TimerEvent: {}
+[30.556959] (-) TimerEvent: {}
+[30.660579] (-) TimerEvent: {}
+[30.762493] (-) TimerEvent: {}
+[30.864269] (-) TimerEvent: {}
+[30.965014] (-) TimerEvent: {}
+[31.066272] (-) TimerEvent: {}
+[31.168358] (-) TimerEvent: {}
+[31.272972] (-) TimerEvent: {}
+[31.374992] (-) TimerEvent: {}
+[31.478196] (-) TimerEvent: {}
+[31.583939] (-) TimerEvent: {}
+[31.685476] (-) TimerEvent: {}
+[31.789786] (-) TimerEvent: {}
+[31.892785] (-) TimerEvent: {}
+[31.993924] (-) TimerEvent: {}
+[32.094990] (-) TimerEvent: {}
+[32.155649] (humanoid_tools) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libhumanoid_tools.a\x1b[0m\n'}
+[32.195345] (-) TimerEvent: {}
+[32.216589] (humanoid_tools) StdoutLine: {'line': b'[100%] Built target humanoid_tools\n'}
+[32.242479] (humanoid_tools) CommandEnded: {'returncode': 0}
+[32.246304] (humanoid_tools) JobProgress: {'identifier': 'humanoid_tools', 'progress': 'install'}
+[32.263552] (humanoid_tools) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rafael/Humanoids/ros_ws/build/humanoid_tools'], 'cwd': '/home/rafael/Humanoids/ros_ws/build/humanoid_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'rafael'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafael/Humanoids/ros_ws/install/humanoid_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafael'), ('OLDPWD', '/home/rafael/Humanoids/ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '17242'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafael/Humanoids/ros_ws/install:/home/rafael/ROS2Dev/fourier_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rafael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafael-ideapad:@/tmp/.ICE-unix/2463,unix/rafael-ideapad:/tmp/.ICE-unix/2463'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9f5ad58f_a177_4783_9e47_0ee5679638b1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8W30A3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafael/Humanoids/ros_ws/build/humanoid_tools'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble')]), 'shell': False}
+[32.276911] (humanoid_tools) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.277620] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/lib/libhumanoid_tools.a\n'}
+[32.281365] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/include\n'}
+[32.281933] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/include/humanoid_tools\n'}
+[32.282272] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/include/humanoid_tools/vision.hpp\n'}
+[32.285338] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/include/humanoid_tools/hardware.hpp\n'}
+[32.285909] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/environment/library_path.sh\n'}
+[32.287564] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/environment/library_path.dsv\n'}
+[32.289289] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/ament_index/resource_index/package_run_dependencies/humanoid_tools\n'}
+[32.289642] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/ament_index/resource_index/parent_prefix_path/humanoid_tools\n'}
+[32.291966] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/environment/ament_prefix_path.sh\n'}
+[32.292472] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/environment/ament_prefix_path.dsv\n'}
+[32.294465] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/environment/path.sh\n'}
+[32.295939] (-) TimerEvent: {}
+[32.297484] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/environment/path.dsv\n'}
+[32.298397] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/local_setup.bash\n'}
+[32.298775] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/local_setup.sh\n'}
+[32.300845] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/local_setup.zsh\n'}
+[32.302023] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/local_setup.dsv\n'}
+[32.302447] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/package.dsv\n'}
+[32.304867] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/ament_index/resource_index/packages/humanoid_tools\n'}
+[32.306537] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[32.308043] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[32.308590] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[32.309194] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/cmake/humanoid_toolsConfig.cmake\n'}
+[32.310149] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/cmake/humanoid_toolsConfig-version.cmake\n'}
+[32.311346] (humanoid_tools) StdoutLine: {'line': b'-- Installing: /home/rafael/Humanoids/ros_ws/install/humanoid_tools/share/humanoid_tools/package.xml\n'}
+[32.315322] (humanoid_tools) CommandEnded: {'returncode': 0}
+[32.393056] (humanoid_tools) JobEnded: {'identifier': 'humanoid_tools', 'rc': 0}
+[32.396263] (-) TimerEvent: {}
+[32.397091] (-) EventReactorShutdown: {}

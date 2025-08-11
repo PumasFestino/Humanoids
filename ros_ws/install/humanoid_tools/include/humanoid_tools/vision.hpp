@@ -4,12 +4,13 @@
 #include <geometry_msgs/msg/pose.hpp>
 #include <geometry_msgs/msg/point.hpp>
 #include <rclcpp/rclcpp.hpp>
+#include <random>
 
-namespace HumanoidTools {
+namespace humanoid_tools {
 
 class Vision {
 public:
-    Vision();
+    Vision(rclcpp::Logger logger);
     bool isReady() const;
     bool calibrate();
     bool isBallVisible() const;
@@ -26,6 +27,6 @@ private:
     int scan_counter_ = 0;
 };
 
-} // namespace HumanoidTools
+} // namespace humanoid_tools
 
 #endif

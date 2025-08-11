@@ -1,0 +1,41 @@
+[0.058s] Invoking command in '/home/rafael/Humanoids/ros_ws/build/surge_et_ambula': AMENT_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/task_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/task_manager:/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble /usr/bin/cmake /home/rafael/Humanoids/ros_ws/src/surge_et_ambula -DCMAKE_INSTALL_PREFIX=/home/rafael/Humanoids/ros_ws/install/surge_et_ambula
+[0.299s] -- The C compiler identification is GNU 11.4.0
+[0.547s] -- The CXX compiler identification is GNU 11.4.0
+[0.586s] -- Detecting C compiler ABI info
+[0.863s] -- Detecting C compiler ABI info - done
+[0.912s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.912s] -- Detecting C compile features
+[0.914s] -- Detecting C compile features - done
+[0.934s] -- Detecting CXX compiler ABI info
+[1.239s] -- Detecting CXX compiler ABI info - done
+[1.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.295s] -- Detecting CXX compile features
+[1.296s] -- Detecting CXX compile features - done
+[1.306s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.823s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.533s] -- Configuring done
+[2.544s] -- Generating done
+[2.550s] -- Build files have been written to: /home/rafael/Humanoids/ros_ws/build/surge_et_ambula
+[2.576s] Invoked command in '/home/rafael/Humanoids/ros_ws/build/surge_et_ambula' returned '0': AMENT_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/task_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/task_manager:/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble /usr/bin/cmake /home/rafael/Humanoids/ros_ws/src/surge_et_ambula -DCMAKE_INSTALL_PREFIX=/home/rafael/Humanoids/ros_ws/install/surge_et_ambula
+[2.580s] Invoking command in '/home/rafael/Humanoids/ros_ws/build/surge_et_ambula': AMENT_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/task_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/task_manager:/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble /usr/bin/cmake --build /home/rafael/Humanoids/ros_ws/build/surge_et_ambula -- -j2 -l2
+[2.671s] Invoked command in '/home/rafael/Humanoids/ros_ws/build/surge_et_ambula' returned '0': AMENT_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/task_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/task_manager:/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble /usr/bin/cmake --build /home/rafael/Humanoids/ros_ws/build/surge_et_ambula -- -j2 -l2
+[2.694s] Invoking command in '/home/rafael/Humanoids/ros_ws/build/surge_et_ambula': AMENT_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/task_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/task_manager:/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble /usr/bin/cmake --install /home/rafael/Humanoids/ros_ws/build/surge_et_ambula
+[2.708s] -- Install configuration: ""
+[2.709s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/launch
+[2.709s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/launch/striker_launch.py
+[2.710s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/ament_index/resource_index/package_run_dependencies/surge_et_ambula
+[2.711s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/ament_index/resource_index/parent_prefix_path/surge_et_ambula
+[2.711s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/environment/ament_prefix_path.sh
+[2.712s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/environment/ament_prefix_path.dsv
+[2.713s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/environment/path.sh
+[2.713s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/environment/path.dsv
+[2.714s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/local_setup.bash
+[2.714s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/local_setup.sh
+[2.715s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/local_setup.zsh
+[2.715s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/local_setup.dsv
+[2.716s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/package.dsv
+[2.716s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/ament_index/resource_index/packages/surge_et_ambula
+[2.717s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/cmake/surge_et_ambulaConfig.cmake
+[2.717s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/cmake/surge_et_ambulaConfig-version.cmake
+[2.718s] -- Installing: /home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/package.xml
+[2.723s] Invoked command in '/home/rafael/Humanoids/ros_ws/build/surge_et_ambula' returned '0': AMENT_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/task_manager:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/task_manager:/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble /usr/bin/cmake --install /home/rafael/Humanoids/ros_ws/build/surge_et_ambula

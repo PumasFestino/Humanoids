@@ -1,0 +1,16 @@
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/launch/striker_launch.py
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/ament_index/resource_index/package_run_dependencies/surge_et_ambula
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/ament_index/resource_index/parent_prefix_path/surge_et_ambula
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/environment/ament_prefix_path.sh
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/environment/ament_prefix_path.dsv
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/environment/path.sh
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/environment/path.dsv
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/local_setup.bash
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/local_setup.sh
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/local_setup.zsh
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/local_setup.dsv
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/package.dsv
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/ament_index/resource_index/packages/surge_et_ambula
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/cmake/surge_et_ambulaConfig.cmake
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/cmake/surge_et_ambulaConfig-version.cmake
+/home/rafael/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/package.xml

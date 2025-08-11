@@ -1,0 +1,257 @@
+[0.545s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'task_manager']
+[0.546s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['task_manager'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x723b2837be50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x723b2849d4b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x723b2849d4b0>>, mixin_verb=('build',))
+[1.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.668s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rafael/Humanoids/ros_ws'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extensions ['ignore', 'ignore_ament_install']
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extension 'ignore'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extension 'ignore_ament_install'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extensions ['colcon_pkg']
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extension 'colcon_pkg'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extensions ['colcon_meta']
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extension 'colcon_meta'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extensions ['ros']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extension 'ros'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extensions ['cmake', 'python']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extension 'cmake'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extension 'python'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extensions ['python_setup_py']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware) by extension 'python_setup_py'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware/hdwr_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware/hdwr_pkg) by extension 'ignore'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware/hdwr_pkg) by extension 'ignore_ament_install'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware/hdwr_pkg) by extensions ['colcon_pkg']
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware/hdwr_pkg) by extension 'colcon_pkg'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware/hdwr_pkg) by extensions ['colcon_meta']
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware/hdwr_pkg) by extension 'colcon_meta'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware/hdwr_pkg) by extensions ['ros']
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hardware/hdwr_pkg) by extension 'ros'
+[1.738s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hardware/hdwr_pkg' with type 'ros.catkin' and name 'hdwr_pkg'
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extensions ['ignore', 'ignore_ament_install']
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extension 'ignore'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extension 'ignore_ament_install'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extensions ['colcon_pkg']
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extension 'colcon_pkg'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extensions ['colcon_meta']
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extension 'colcon_meta'
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extensions ['ros']
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extension 'ros'
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extensions ['cmake', 'python']
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extension 'cmake'
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extension 'python'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extensions ['python_setup_py']
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan) by extension 'python_setup_py'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan/task_manager) by extensions ['ignore', 'ignore_ament_install']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan/task_manager) by extension 'ignore'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan/task_manager) by extension 'ignore_ament_install'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan/task_manager) by extensions ['colcon_pkg']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan/task_manager) by extension 'colcon_pkg'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan/task_manager) by extensions ['colcon_meta']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan/task_manager) by extension 'colcon_meta'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan/task_manager) by extensions ['ros']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/Plan/task_manager) by extension 'ros'
+[1.748s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Plan/task_manager' with type 'ros.ament_cmake' and name 'task_manager'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extensions ['ignore', 'ignore_ament_install']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extension 'ignore'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extension 'ignore_ament_install'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extensions ['colcon_pkg']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extension 'colcon_pkg'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extensions ['colcon_meta']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extension 'colcon_meta'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extensions ['ros']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extension 'ros'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extensions ['cmake', 'python']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extension 'cmake'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extension 'python'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extensions ['python_setup_py']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm) by extension 'python_setup_py'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm/refbox_comm_node) by extensions ['ignore', 'ignore_ament_install']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm/refbox_comm_node) by extension 'ignore'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm/refbox_comm_node) by extension 'ignore_ament_install'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm/refbox_comm_node) by extensions ['colcon_pkg']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm/refbox_comm_node) by extension 'colcon_pkg'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm/refbox_comm_node) by extensions ['colcon_meta']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm/refbox_comm_node) by extension 'colcon_meta'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm/refbox_comm_node) by extensions ['ros']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/RefBoxComm/refbox_comm_node) by extension 'ros'
+[1.756s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RefBoxComm/refbox_comm_node' with type 'ros.catkin' and name 'refbox_comm_node'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extensions ['ignore', 'ignore_ament_install']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extension 'ignore'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extension 'ignore_ament_install'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extensions ['colcon_pkg']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extension 'colcon_pkg'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extensions ['colcon_meta']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extension 'colcon_meta'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extensions ['ros']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extension 'ros'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extensions ['cmake', 'python']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extension 'cmake'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extension 'python'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extensions ['python_setup_py']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision) by extension 'python_setup_py'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision/vision_node) by extensions ['ignore', 'ignore_ament_install']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision/vision_node) by extension 'ignore'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision/vision_node) by extension 'ignore_ament_install'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision/vision_node) by extensions ['colcon_pkg']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision/vision_node) by extension 'colcon_pkg'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision/vision_node) by extensions ['colcon_meta']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision/vision_node) by extension 'colcon_meta'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision/vision_node) by extensions ['ros']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/Vision/vision_node) by extension 'ros'
+[1.764s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Vision/vision_node' with type 'ros.catkin' and name 'vision_node'
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_tools) by extensions ['ignore', 'ignore_ament_install']
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_tools) by extension 'ignore'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_tools) by extension 'ignore_ament_install'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_tools) by extensions ['colcon_pkg']
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_tools) by extension 'colcon_pkg'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_tools) by extensions ['colcon_meta']
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_tools) by extension 'colcon_meta'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_tools) by extensions ['ros']
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_tools) by extension 'ros'
+[1.770s] DEBUG:colcon.colcon_core.package_identification:Package 'src/humanoid_tools' with type 'ros.ament_cmake' and name 'humanoid_tools'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/surge_et_ambula) by extensions ['ignore', 'ignore_ament_install']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/surge_et_ambula) by extension 'ignore'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/surge_et_ambula) by extension 'ignore_ament_install'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/surge_et_ambula) by extensions ['colcon_pkg']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/surge_et_ambula) by extension 'colcon_pkg'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/surge_et_ambula) by extensions ['colcon_meta']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/surge_et_ambula) by extension 'colcon_meta'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/surge_et_ambula) by extensions ['ros']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/surge_et_ambula) by extension 'ros'
+[1.774s] DEBUG:colcon.colcon_core.package_identification:Package 'src/surge_et_ambula' with type 'ros.ament_cmake' and name 'surge_et_ambula'
+[1.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.856s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hdwr_pkg' in 'src/Hardware/hdwr_pkg'
+[1.857s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'humanoid_tools' in 'src/humanoid_tools'
+[1.857s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'refbox_comm_node' in 'src/RefBoxComm/refbox_comm_node'
+[1.857s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision_node' in 'src/Vision/vision_node'
+[1.857s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'surge_et_ambula' in 'src/surge_et_ambula'
+[1.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.863s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rafael/Humanoids/ros_ws/install/surge_et_ambula' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.864s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/rafael/Humanoids/ros_ws/install/surge_et_ambula' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.868s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rafael/Humanoids/ros_ws/install
+[1.871s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rafael/ROS2Dev/fourier_ws/install
+[1.882s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 338 installed packages in /opt/ros/humble
+[1.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'task_manager' build argument 'cmake_args' from command line to 'None'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'task_manager' build argument 'cmake_target' from command line to 'None'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'task_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'task_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'task_manager' build argument 'cmake_clean_first' from command line to 'False'
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'task_manager' build argument 'cmake_force_configure' from command line to 'False'
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'task_manager' build argument 'ament_cmake_args' from command line to 'None'
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'task_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'task_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.118s] DEBUG:colcon.colcon_core.verb:Building package 'task_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rafael/Humanoids/ros_ws/build/task_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafael/Humanoids/ros_ws/install/task_manager', 'merge_install': False, 'path': '/home/rafael/Humanoids/ros_ws/src/Plan/task_manager', 'symlink_install': False, 'test_result_base': None}
+[2.119s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.123s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.124s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rafael/Humanoids/ros_ws/src/Plan/task_manager' with build type 'ament_cmake'
+[2.125s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rafael/Humanoids/ros_ws/src/Plan/task_manager'
+[2.136s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafael/Humanoids/ros_ws/build/task_manager': CMAKE_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble /usr/bin/cmake /home/rafael/Humanoids/ros_ws/src/Plan/task_manager -DCMAKE_INSTALL_PREFIX=/home/rafael/Humanoids/ros_ws/install/task_manager
+[6.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafael/Humanoids/ros_ws/build/task_manager' returned '0': CMAKE_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble /usr/bin/cmake /home/rafael/Humanoids/ros_ws/src/Plan/task_manager -DCMAKE_INSTALL_PREFIX=/home/rafael/Humanoids/ros_ws/install/task_manager
+[6.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafael/Humanoids/ros_ws/build/task_manager': CMAKE_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble /usr/bin/cmake --build /home/rafael/Humanoids/ros_ws/build/task_manager -- -j2 -l2
+[23.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafael/Humanoids/ros_ws/build/task_manager' returned '0': CMAKE_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble /usr/bin/cmake --build /home/rafael/Humanoids/ros_ws/build/task_manager -- -j2 -l2
+[23.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafael/Humanoids/ros_ws/build/task_manager': CMAKE_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble /usr/bin/cmake --install /home/rafael/Humanoids/ros_ws/build/task_manager
+[23.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task_manager)
+[23.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafael/Humanoids/ros_ws/build/task_manager' returned '0': CMAKE_PREFIX_PATH=/home/rafael/Humanoids/ros_ws/install/humanoid_tools:/home/rafael/Humanoids/ros_ws/install/surge_et_ambula:/home/rafael/ROS2Dev/fourier_ws/install/human_actions:/home/rafael/ROS2Dev/fourier_ws/install/hardware:/opt/ros/humble /usr/bin/cmake --install /home/rafael/Humanoids/ros_ws/build/task_manager
+[23.456s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager' for CMake module files
+[23.459s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager' for CMake config files
+[23.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_manager', 'cmake_prefix_path')
+[23.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/hook/cmake_prefix_path.ps1'
+[23.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/hook/cmake_prefix_path.dsv'
+[23.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/hook/cmake_prefix_path.sh'
+[23.471s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager/lib'
+[23.472s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager/bin'
+[23.473s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager/lib/pkgconfig/task_manager.pc'
+[23.474s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager/lib/python3.10/site-packages'
+[23.475s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager/bin'
+[23.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/package.ps1'
+[23.480s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/package.dsv'
+[23.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/package.sh'
+[23.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/package.bash'
+[23.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/package.zsh'
+[23.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafael/Humanoids/ros_ws/install/task_manager/share/colcon-core/packages/task_manager)
+[23.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task_manager)
+[23.497s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager' for CMake module files
+[23.499s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager' for CMake config files
+[23.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_manager', 'cmake_prefix_path')
+[23.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/hook/cmake_prefix_path.ps1'
+[23.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/hook/cmake_prefix_path.dsv'
+[23.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/hook/cmake_prefix_path.sh'
+[23.509s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager/lib'
+[23.510s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager/bin'
+[23.510s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager/lib/pkgconfig/task_manager.pc'
+[23.511s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager/lib/python3.10/site-packages'
+[23.512s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/Humanoids/ros_ws/install/task_manager/bin'
+[23.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/package.ps1'
+[23.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/package.dsv'
+[23.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/package.sh'
+[23.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/package.bash'
+[23.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/Humanoids/ros_ws/install/task_manager/share/task_manager/package.zsh'
+[23.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafael/Humanoids/ros_ws/install/task_manager/share/colcon-core/packages/task_manager)
+[23.527s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.528s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.528s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.529s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.569s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.569s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.569s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.608s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.609s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafael/Humanoids/ros_ws/install/local_setup.ps1'
+[23.614s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafael/Humanoids/ros_ws/install/_local_setup_util_ps1.py'
+[23.621s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafael/Humanoids/ros_ws/install/setup.ps1'
+[23.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafael/Humanoids/ros_ws/install/local_setup.sh'
+[23.630s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafael/Humanoids/ros_ws/install/_local_setup_util_sh.py'
+[23.633s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafael/Humanoids/ros_ws/install/setup.sh'
+[23.640s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafael/Humanoids/ros_ws/install/local_setup.bash'
+[23.643s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafael/Humanoids/ros_ws/install/setup.bash'
+[23.649s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafael/Humanoids/ros_ws/install/local_setup.zsh'
+[23.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafael/Humanoids/ros_ws/install/setup.zsh'

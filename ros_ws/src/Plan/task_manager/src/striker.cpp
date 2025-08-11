@@ -1,6 +1,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <humanoid_tools/hardware.hpp>
 #include <humanoid_tools/vision.hpp>
+#include <chrono>
 
 enum class SMState {
     SM_SETUP,
@@ -28,20 +29,25 @@ public:
                                         std::bind(&StrikerNode::mainLoop, this));
         
         // Initialize hardware and vision systems
-        hardware_ = std::make_unique<HumanoidTools::Hardware>();
-        vision_ = std::make_unique<HumanoidTools::Vision>();
+        hardware_ = std::make_unique<humanoid_tools::Hardware>(this->get_logger());
+        vision_ = std::make_unique<humanoid_tools::Vision>(this->get_logger());
         
-        // Set positions (should come from configuration)
-        striker_position_ = {/* x */ 1.5, /* y */ 0.0, /* theta */ 0.0};
+        // Set striker position
+        striker_position_.position.x = 1.5;
+        striker_position_.position.y = 0.0;
+        striker_position_.position.z = 0.0;
+        striker_position_.orientation.x = 0.0;
+        striker_position_.orientation.y = 0.0;
+        striker_position_.orientation.z = 0.0;
+        striker_position_.orientation.w = 1.0;
     }
 
 private:
     SMState state_;
     rclcpp::TimerBase::SharedPtr timer_;
-    std::unique_ptr<HumanoidTools::Hardware> hardware_;
-    std::unique_ptr<HumanoidTools::Vision> vision_;
+    std::unique_ptr<humanoid_tools::Hardware> hardware_;
+    std::unique_ptr<humanoid_tools::Vision> vision_;
     
-    // Game state variables
     int ball_lost_count_;
     int approach_attempts_;
     geometry_msgs::msg::Pose striker_position_;
@@ -49,6 +55,11 @@ private:
 
     void mainLoop()
     {
+        if (!hardware_ || !vision_) {
+            RCLCPP_ERROR(this->get_logger(), "Hardware or vision not initialized!");
+            return;
+        }
+
         if (!hardware_->isReady() || !vision_->isReady()) {
             RCLCPP_WARN_THROTTLE(this->get_logger(), *this->get_clock(), 1000, 
                                 "Systems initializing...");
@@ -87,8 +98,7 @@ private:
             else {
                 ball_lost_count_++;
                 
-                // If ball not found after extensive search
-                if (ball_lost_count_ > 30) {  // ~3 seconds at 100ms loop
+                if (ball_lost_count_ > 30) {
                     state_ = SMState::SM_RETURN_TO_POSITION;
                 } 
                 else {
@@ -136,7 +146,7 @@ private:
         case SMState::SM_STRIKE:
             RCLCPP_INFO(this->get_logger(), "State: STRIKE");
             hardware_->executeKick();
-            state_ = SMState::SM_SEARCH_BALL;  // Immediately look for ball after kick
+            state_ = SMState::SM_SEARCH_BALL;
             break;
 
         case SMState::SM_RETURN_TO_POSITION:
@@ -145,7 +155,7 @@ private:
                 state_ = SMState::SM_SEARCH_BALL;
             } 
             else if (vision_->isBallVisible() && vision_->isBallNear()) {
-                state_ = SMState::SM_APPROACH_BALL;  // Ball appeared nearby!
+                state_ = SMState::SM_APPROACH_BALL;
             }
             break;
 
@@ -162,7 +172,6 @@ private:
         case SMState::SM_EMERGENCY:
             RCLCPP_ERROR(this->get_logger(), "EMERGENCY STATE ACTIVATED!");
             hardware_->emergencyStop();
-            // Implement recovery logic here
             break;
         }
     }

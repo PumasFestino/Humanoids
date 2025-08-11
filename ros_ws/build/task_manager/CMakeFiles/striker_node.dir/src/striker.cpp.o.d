@@ -632,4 +632,7 @@ CMakeFiles/striker_node.dir/src/striker.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp \
- /home/rafael/Humanoids/ros_ws/install/humanoid_tools/include/humanoid_tools/vision.hpp
+ /home/rafael/Humanoids/ros_ws/install/humanoid_tools/include/humanoid_tools/vision.hpp \
+ /usr/include/c++/11/random /usr/include/c++/11/bits/random.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
+ /usr/include/c++/11/bits/random.tcc
