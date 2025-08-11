@@ -1,0 +1,4 @@
+source;share/hdwr_pkg/local_setup.bash
+source;share/hdwr_pkg/local_setup.dsv
+source;share/hdwr_pkg/local_setup.sh
+source;share/hdwr_pkg/local_setup.zsh

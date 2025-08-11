@@ -1,0 +1,20 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mercus/Humanoids/ros_ws/build/task_manager
+-- Install configuration: ""
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/ament_index/resource_index/package_run_dependencies/task_manager
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/ament_index/resource_index/parent_prefix_path/task_manager
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/task_manager/environment/ament_prefix_path.sh
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/task_manager/environment/ament_prefix_path.dsv
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/task_manager/environment/path.sh
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/task_manager/environment/path.dsv
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/task_manager/local_setup.bash
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/task_manager/local_setup.sh
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/task_manager/local_setup.zsh
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/task_manager/local_setup.dsv
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/task_manager/package.dsv
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/ament_index/resource_index/packages/task_manager
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/task_manager/cmake/task_managerConfig.cmake
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/task_manager/cmake/task_managerConfig-version.cmake
+-- Installing: /home/mercus/Humanoids/ros_ws/install/task_manager/share/task_manager/package.xml

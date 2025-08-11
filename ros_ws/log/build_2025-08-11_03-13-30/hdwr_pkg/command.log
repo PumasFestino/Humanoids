@@ -1,0 +1,1 @@
+Invoking command in '/home/mercus/Humanoids/ros_ws/build/hdwr_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/mercus/Humanoids/ros_ws/src/Hardware/hdwr_pkg -DCMAKE_INSTALL_PREFIX=/home/mercus/Humanoids/ros_ws/install/hdwr_pkg

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "hdwr_pkg__py",
+		"source" : "/home/mercus/Humanoids/ros_ws/build/hdwr_pkg/hdwr_pkg__py"
+	}
+}

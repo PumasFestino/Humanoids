@@ -1,0 +1,2 @@
+Invoking command in '/home/mercus/Humanoids/ros_ws/build/task_manager': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/mercus/Humanoids/ros_ws/src/Plan/task_manager -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mercus/Humanoids/ros_ws/install/task_manager
+Invoked command in '/home/mercus/Humanoids/ros_ws/build/task_manager' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/mercus/Humanoids/ros_ws/src/Plan/task_manager -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mercus/Humanoids/ros_ws/install/task_manager

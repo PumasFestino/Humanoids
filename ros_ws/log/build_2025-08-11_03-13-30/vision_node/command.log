@@ -1,0 +1,2 @@
+Invoking command in '/home/mercus/Humanoids/ros_ws/build/vision_node': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/mercus/Humanoids/ros_ws/src/Vision/vision_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mercus/Humanoids/ros_ws/install/vision_node
+Invoked command in '/home/mercus/Humanoids/ros_ws/build/vision_node' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/mercus/Humanoids/ros_ws/src/Vision/vision_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mercus/Humanoids/ros_ws/install/vision_node

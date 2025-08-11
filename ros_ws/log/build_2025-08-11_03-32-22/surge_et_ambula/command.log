@@ -1,0 +1,6 @@
+Invoking command in '/home/mercus/Humanoids/ros_ws/build/surge_et_ambula': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/mercus/Humanoids/ros_ws/src/SurgeEtAmbula/surge_et_ambula -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mercus/Humanoids/ros_ws/install/surge_et_ambula
+Invoked command in '/home/mercus/Humanoids/ros_ws/build/surge_et_ambula' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/mercus/Humanoids/ros_ws/src/SurgeEtAmbula/surge_et_ambula -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mercus/Humanoids/ros_ws/install/surge_et_ambula
+Invoking command in '/home/mercus/Humanoids/ros_ws/build/surge_et_ambula': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/mercus/Humanoids/ros_ws/build/surge_et_ambula -- -j20 -l20
+Invoked command in '/home/mercus/Humanoids/ros_ws/build/surge_et_ambula' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/mercus/Humanoids/ros_ws/build/surge_et_ambula -- -j20 -l20
+Invoking command in '/home/mercus/Humanoids/ros_ws/build/surge_et_ambula': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/mercus/Humanoids/ros_ws/build/surge_et_ambula
+Invoked command in '/home/mercus/Humanoids/ros_ws/build/surge_et_ambula' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/mercus/Humanoids/ros_ws/build/surge_et_ambula

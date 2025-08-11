@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-de2b79dc81368a454fa8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "hdwr_pkg__py",
+					"jsonFile" : "directory-hdwr_pkg__py-18c0f6bc06c51388dabb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mercus/Humanoids/ros_ws/build/hdwr_pkg/hdwr_pkg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "hdwr_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hdwr_pkg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hdwr_pkg_egg-2e92736c530b7bd474ce.json",
+					"name" : "ament_cmake_python_build_hdwr_pkg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_hdwr_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_hdwr_pkg-c62dd8dc5e7be1ded33d.json",
+					"name" : "ament_cmake_python_copy_hdwr_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg-785bd570f6b280ced790.json",
+					"name" : "hdwr_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg__cpp-ebe5518b8463baed32bb.json",
+					"name" : "hdwr_pkg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hdwr_pkg__py::@4347caeb085ad4256d2a",
+					"jsonFile" : "target-hdwr_pkg__py-2c7fdbe6aa570dc86971.json",
+					"name" : "hdwr_pkg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg__rosidl_generator_c-d83d2962b738b73efb85.json",
+					"name" : "hdwr_pkg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg__rosidl_generator_py-4d2f4fe91ceefe04503f.json",
+					"name" : "hdwr_pkg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg__rosidl_typesupport_c-06f95e54a147f122a3e4.json",
+					"name" : "hdwr_pkg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg__rosidl_typesupport_c__pyext-3c22e16d7762c75f7c27.json",
+					"name" : "hdwr_pkg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg__rosidl_typesupport_cpp-de067a46aec4145c51ab.json",
+					"name" : "hdwr_pkg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg__rosidl_typesupport_fastrtps_c-6c1e77b873c5f5f94caf.json",
+					"name" : "hdwr_pkg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg__rosidl_typesupport_fastrtps_c__pyext-70e70a119084222df324.json",
+					"name" : "hdwr_pkg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg__rosidl_typesupport_fastrtps_cpp-5ee83ccfb730f855b5ab.json",
+					"name" : "hdwr_pkg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg__rosidl_typesupport_introspection_c-f2185daf3c3da742a3c5.json",
+					"name" : "hdwr_pkg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg__rosidl_typesupport_introspection_c__pyext-675152dca0c84eac6045.json",
+					"name" : "hdwr_pkg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg__rosidl_typesupport_introspection_cpp-b7c9ad9b1ba254551cb4.json",
+					"name" : "hdwr_pkg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hdwr_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hdwr_pkg_uninstall-7e392ca2ebfb9ef6ffc4.json",
+					"name" : "hdwr_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-49052eaf1073d3339324.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mercus/Humanoids/ros_ws/build/hdwr_pkg",
+		"source" : "/home/mercus/Humanoids/ros_ws/src/Hardware/hdwr_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "package_name": "hdwr_pkg",
+  "non_idl_tuples": [
+    "/home/mercus/Humanoids/ros_ws/src/Hardware/hdwr_pkg:srv/HumanSrv.srv"
+  ]
+}

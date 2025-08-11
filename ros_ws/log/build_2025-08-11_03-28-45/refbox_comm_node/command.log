@@ -1,0 +1,1 @@
+Invoking command in '/home/mercus/Humanoids/ros_ws/build/refbox_comm_node': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/mercus/Humanoids/ros_ws/src/RefBoxComm/refbox_comm_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mercus/Humanoids/ros_ws/install/refbox_comm_node

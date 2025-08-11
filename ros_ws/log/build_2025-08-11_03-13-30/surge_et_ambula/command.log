@@ -1,0 +1,1 @@
+Invoking command in '/home/mercus/Humanoids/ros_ws/build/surge_et_ambula': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/mercus/Humanoids/ros_ws/src/SurgeEtAmbula/surge_et_ambula -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mercus/Humanoids/ros_ws/install/surge_et_ambula

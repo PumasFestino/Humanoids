@@ -1,0 +1,15 @@
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/ament_index/resource_index/package_run_dependencies/surge_et_ambula
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/ament_index/resource_index/parent_prefix_path/surge_et_ambula
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/environment/ament_prefix_path.sh
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/environment/ament_prefix_path.dsv
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/environment/path.sh
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/environment/path.dsv
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/local_setup.bash
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/local_setup.sh
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/local_setup.zsh
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/local_setup.dsv
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/package.dsv
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/ament_index/resource_index/packages/surge_et_ambula
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/cmake/surge_et_ambulaConfig.cmake
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/cmake/surge_et_ambulaConfig-version.cmake
+/home/mercus/Humanoids/ros_ws/install/surge_et_ambula/share/surge_et_ambula/package.xml
