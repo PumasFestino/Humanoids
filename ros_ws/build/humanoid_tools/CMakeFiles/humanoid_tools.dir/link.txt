@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhumanoid_tools.a CMakeFiles/humanoid_tools.dir/src/hardware.cpp.o CMakeFiles/humanoid_tools.dir/src/vision.cpp.o
+/usr/bin/ranlib libhumanoid_tools.a

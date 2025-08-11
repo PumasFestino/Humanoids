@@ -16,7 +16,7 @@ set(_task_manager_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT task_manager_FIND_QUIETLY)
-  message(STATUS "Found task_manager: 0.0.1 (${task_manager_DIR})")
+  message(STATUS "Found task_manager: 0.1.0 (${task_manager_DIR})")
 endif()
 
 # warn when using a deprecated package

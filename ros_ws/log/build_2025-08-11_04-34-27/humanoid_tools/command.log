@@ -1,0 +1,4 @@
+Invoking command in '/home/rafael/Humanoids/ros_ws/build/humanoid_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rafael/Humanoids/ros_ws/build/humanoid_tools -- -j2 -l2
+Invoked command in '/home/rafael/Humanoids/ros_ws/build/humanoid_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rafael/Humanoids/ros_ws/build/humanoid_tools -- -j2 -l2
+Invoking command in '/home/rafael/Humanoids/ros_ws/build/humanoid_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rafael/Humanoids/ros_ws/build/humanoid_tools
+Invoked command in '/home/rafael/Humanoids/ros_ws/build/humanoid_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rafael/Humanoids/ros_ws/build/humanoid_tools

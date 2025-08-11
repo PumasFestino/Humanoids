@@ -1,6 +1,6 @@
 /home/rafael/Humanoids/ros_ws/build/task_manager/CMakeFiles/uninstall.dir
 /home/rafael/Humanoids/ros_ws/build/task_manager/CMakeFiles/task_manager_uninstall.dir
-/home/rafael/Humanoids/ros_ws/build/task_manager/CMakeFiles/striker.dir
+/home/rafael/Humanoids/ros_ws/build/task_manager/CMakeFiles/striker_node.dir
 /home/rafael/Humanoids/ros_ws/build/task_manager/CMakeFiles/test.dir
 /home/rafael/Humanoids/ros_ws/build/task_manager/CMakeFiles/edit_cache.dir
 /home/rafael/Humanoids/ros_ws/build/task_manager/CMakeFiles/rebuild_cache.dir
