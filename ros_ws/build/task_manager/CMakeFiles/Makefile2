@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/rafael/Humanoids/ros_ws/build/task_manager
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/push_recovery.dir/all
+all: CMakeFiles/striker.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,7 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/task_manager_uninstall.dir/clean
-clean: CMakeFiles/push_recovery.dir/clean
+clean: CMakeFiles/striker.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -129,30 +129,30 @@ CMakeFiles/task_manager_uninstall.dir/clean:
 .PHONY : CMakeFiles/task_manager_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/push_recovery.dir
+# Target rules for target CMakeFiles/striker.dir
 
 # All Build rule for target.
-CMakeFiles/push_recovery.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_recovery.dir/build.make CMakeFiles/push_recovery.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_recovery.dir/build.make CMakeFiles/push_recovery.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rafael/Humanoids/ros_ws/build/task_manager/CMakeFiles --progress-num=1,2 "Built target push_recovery"
-.PHONY : CMakeFiles/push_recovery.dir/all
+CMakeFiles/striker.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/striker.dir/build.make CMakeFiles/striker.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/striker.dir/build.make CMakeFiles/striker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rafael/Humanoids/ros_ws/build/task_manager/CMakeFiles --progress-num=1,2 "Built target striker"
+.PHONY : CMakeFiles/striker.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/push_recovery.dir/rule: cmake_check_build_system
+CMakeFiles/striker.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rafael/Humanoids/ros_ws/build/task_manager/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/push_recovery.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/striker.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rafael/Humanoids/ros_ws/build/task_manager/CMakeFiles 0
-.PHONY : CMakeFiles/push_recovery.dir/rule
+.PHONY : CMakeFiles/striker.dir/rule
 
 # Convenience name for target.
-push_recovery: CMakeFiles/push_recovery.dir/rule
-.PHONY : push_recovery
+striker: CMakeFiles/striker.dir/rule
+.PHONY : striker
 
 # clean rule for target.
-CMakeFiles/push_recovery.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_recovery.dir/build.make CMakeFiles/push_recovery.dir/clean
-.PHONY : CMakeFiles/push_recovery.dir/clean
+CMakeFiles/striker.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/striker.dir/build.make CMakeFiles/striker.dir/clean
+.PHONY : CMakeFiles/striker.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

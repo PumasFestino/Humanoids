@@ -1,0 +1,2 @@
+Invoking command in '/home/rafael/Humanoids/ros_ws/build/hdwr_pkg': /usr/bin/cmake /home/rafael/Humanoids/ros_ws/src/Hardware/hdwr_pkg -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rafael/Humanoids/ros_ws/install/hdwr_pkg
+Invoked command in '/home/rafael/Humanoids/ros_ws/build/hdwr_pkg' returned '1': /usr/bin/cmake /home/rafael/Humanoids/ros_ws/src/Hardware/hdwr_pkg -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rafael/Humanoids/ros_ws/install/hdwr_pkg
